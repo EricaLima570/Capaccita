@@ -1,0 +1,73 @@
+body {
+    background-image: url(../arq/padrao-de-borboleta-desenhado-a-mao_23-2150996179.avif); /* Caminho da imagem */
+    background-repeat: repeat; /* Faz a imagem se repetir em ambas as direções (horizontal e vertical) */
+    background-size: auto; /* Mantém o tamanho original da imagem */
+}
+.div1{
+    border: 2px double rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    margin: 0px 200px 0px 200px;
+
+}
+header{
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(226, 226, 236);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.menu {
+    background-color: rgb(253, 254, 255);
+    overflow: hidden;
+    height: 40px;
+    border: solid;
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    align-items: center; /* Centraliza os itens verticalmente */
+}
+
+nav a {
+    color: black; /* Cor inicial do texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    padding: 10px 20px; /* Adiciona espaço interno */
+    border: 2px solid transparent; /* Borda invisível inicialmente para manter o layout */
+    border-radius: 20px;
+    transition: border-color 0.3s ease; /* Suaviza a transição da borda */
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255); /* Cor do texto ao passar o mouse */
+    border-color: rgb(243, 243, 245); /* Cor da borda ao passar o mouse */
+    background-color: rgb(1, 1, 2);
+}
+
+.container{
+    border:2px double rgb(2, 25, 100);
+    border-radius: 20px;
+    padding: 50px;
+    margin: 30px;
+    background-color: rgb(204, 208, 219);
+}
+#redes-sociais {
+    background-color: rgb(0, 0, 0);
+    display: flex; /* Ativa o flexbox */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente, se necessário */
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+#redes-sociais a img {
+    width: 30px; /* Define o tamanho dos ícones */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 0 10px; /* Adiciona espaçamento entre os ícones */
+}
+h2{
+    text-align: center;
+}
+#email{
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: black; /* Cor inicial do texto */
+
+}

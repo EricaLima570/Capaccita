@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Diário</title>
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>Jornal Diário</h1>
+        <p>As principais notícias de hoje</p>
+        <!-- Navegação principal -->
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#politica">Política</a></li>
+                <li><a href="#tecnologia">Tecnologia</a></li>
+                <li><a href="#esportes">Esportes</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <p>Publicado em: <time datetime="2024-10-31T09:00">31 de outubro de 2024, às 09:00</time></p>
+
+    </header>
+    <!--A main so começa depois do cabeçalho-->
+    <main>
+    <section id="mais-tags">
+        <!-- Exemplo de <mark> -->
+        <p>O trecho a seguir contém um texto <mark>importante</mark> que precisa ser destacado.</p>
+    
+        <!-- Exemplo de <details> -->
+        <details>
+            <summary>Clique aqui para mais informações</summary>
+            <p>Essas são as informações adicionais que estavam ocultas.</p>
+        </details>
+    
+        <!-- Exemplo de <progress> -->
+        <label for="progresso">Progresso da tarefa:</label>
+        <progress id="progresso" value="7" max="100">70%</progress>
+    </section>
+    <br><hr>
+
+    <section id="mais-tags">
+        <!-- Exemplo de <output> -->
+        <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            <label for="a">Valor 1:</label>
+            <input type="number" id="a" value="10"> +
+            
+            <label for="b">Valor 2:</label>
+            <input type="number" id="b" value="20">
+            
+            <output name="x" for="a b">30</output>
+        </form>
+        <figure>
+            <img src="corrida.jpg" alt="Descrição da imagem">
+            <figcaption>Esta é uma descrição da imagem.</figcaption>
+        </figure>
+    </section>
+
+    <form>
+        <input type="checkbox" id="checkbox1" name="checkbox1">
+        Texto que se refere ao checkbox
+    </form>
+    
+   
+    
+</main>
+<footer>
+    <p>&copy; 2024 Jornal Diário. Todos os direitos reservados.</p>
+    <nav>
+        <ul>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#privacidade">Política de Privacidade</a></li>
+            <li><a href="#termos">Termos de Uso</a></li>
+        </ul>
+    </nav>
+    <p>Desenvolvido por <a href="https://www.exemplo.com">Equipe de Desenvolvimento</a></p>
+</footer>
+
+    
+</body>
+</html>

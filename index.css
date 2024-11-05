@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2a4d0;
+    color: #333;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+section {
+    margin-bottom: 20px;
+}
+h2 {
+    font-size: 20px;
+    color: #d35f6f;
+}
+.prgf{
+    font-size: 16px;
+    color: #df23cf;
+
+}
+#div2{
+    font-size: 16px;
+    color: #df3923;
+
+}
